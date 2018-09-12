@@ -160,7 +160,7 @@ object ReactMacrosImpl {
                     new _root_.slinky.core.BuildingComponent[$elementType, $refType](component, _root_.scala.scalajs.js.Dynamic.literal(), ref = ref)
                   }""",
             q"""def apply(children: _root_.slinky.core.facade.ReactElement*): _root_.slinky.core.facade.ReactElement = {
-                    _root_.slinky.core.facade.React.createElement(component, _root_.scala.scalajs.js.Dynamic.literal().asInstanceOf[_root_.scala.scalajs.js.Dictionary[js.Any]], children: _*)
+                    _root_.slinky.core.facade.React.createElement(component, _root_.scala.scalajs.js.Dynamic.literal().asInstanceOf[_root_.scala.scalajs.js.Dictionary[_root_.scala.scalajs.js.Any]], children: _*)
                   }"""
           )
         } else {
